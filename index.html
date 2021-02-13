@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="task" id="task1">
+        <h2>Zadanie 1 </h2>
+        <div class="content" id="content1Id">
+            <h3>Loteria. Podaj liczbe i sprawdź czy wygrałeś</h2>
+                <div class="employee">
+                    <label>Podaj Twoją szczęśliwą liczbę</label>
+                    <input id="randomNumber" type="number" />
+                </div>
+                <div>
+                    <button class="submitButton" id="task1SubmitButton">Losuj</button>
+                </div>
+                <div id="resultContainer1">
+
+                </div>
+        </div>
+    </div>
+
+    <div class="task" id="task2">
+        <h2>Zadanie 2</h2>
+        <div class="content">
+            <h3>Prownaj dwie liczby i daj w wyniku wieksza</h3>
+            <div class="employee">
+                <label>Podaj pierwszą liczbe</label>
+                <input id="firstNumberToCompare" type="number" />
+            </div>
+            <div class="employee">
+                <label>Podaj drugą liczbe</label>
+                <input id="secondNumberToCompare" type="number" />
+            </div>
+            <div>
+                <button class="submitButton" id="task2SubmitButton">Porownaj</button>
+            </div>
+            <div style="display: none;" id="resultContainer2">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <h2>Zadanie 3</h2>
+        <div class="content">
+            <h3>Suma licz - oblicz sumę liczb: <div id="numbersArray"></div>
+            </h3>
+
+            <div>
+                <button class="submitButton" id="task3SubmitButton">Oblicz sume</button>
+            </div>
+
+            <div id="resultContainer3">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <!-- Zadanie rozwiaz w pliku "task3.js" (podobnie jak poprzednie zadanie) -->
+        <h2>Zadanie 4</h2>
+        <div>
+            <h3>Dodaj kolejna liczbe do tablicy z zadania 3 </h3>
+            <div class="employee">
+                <label>Podaj liczbe</label>
+                <input id="numberToAddToArray" type="number" />
+            </div>
+        </div>
+        <div>
+            <button class="submitButton" id="task4SubmitButton">Dodaj liczbe</button>
+        </div>
+    </div>
+
+    <div class="task">
+        <h2>Zadanie 5</h2s>
+            <div class="content">
+                <h3>Dodaj 5 kwadratow, kazdy o losowym kolorze</h3>
+
+                <div id="squaresContainer">
+
+                </div>
+
+                <div>
+                    <button class="submitButton" id="task5SubmitButton">Dodaj kwadraty</button>
+                </div>
+            </div>
+    </div>
+
+    <!--<div class="task">
+        <h2>Zadanie 6</h2>
+        <div class="content">
+            <h3>Dodaj numer telefonu wybranemu pracownikowi</h3>
+
+            <div>
+                <button class="submitButton" id="task6SubmitButton">Dodaj numer</button>
+            </div>
+        </div>
+    </div>-->
+
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./tasks/task1.js"></script>
+    <script src="./tasks/task2.js"></script>
+    <script src="./tasks/task3.js"></script>
+    <script src="./tasks/task5.js"></script>
+    <!--<script src="./tasks/task5.js"></script>
+    <script src="./tasks/task6.js"></script>-->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: #dee4f9;
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+}
+.task {
+    margin-top: 50px;
+}
+.content {
+    padding-left: 10px;
+}
+
+.content input {
+    border-radius: 5px;
+}
+
+.employeeList {
+    margin-top: 10px;
+    list-style-type: none; 
+}
+
+.employeeList li {
+    margin-top: 10px;
+    border: 1px #b1b1b1 solid;
+    width: 400px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+/* Task1 */
+
+.employee {
+    margin-bottom: 10px;
+}
+
+.employee label {
+    margin-right: 8px;
+}
+
+.submitButton {
+    border-radius: 3px;
+    color: white;
+    background-color:green;
+    border: none;
+    padding: 6px;
+    font-size: 17px;
+}
+
+/* Task2 */
+
+
+/* Task5 */
+
+#squaresContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
